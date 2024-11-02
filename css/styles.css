@@ -6,11 +6,6 @@ a {
   text-decoration: none;
   font-family: Roboto;
 }
-a:active,
-a:hover,
-a:visited {
-  color: #2e2f42;
-}
 button {
   cursor: pointer;
 }
@@ -27,7 +22,7 @@ body {
   font-family: Raleway;
   font-size: 18px;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 1.2;
   letter-spacing: 3%;
   text-transform: uppercase;
 }
@@ -36,7 +31,7 @@ body {
   font-family: Raleway;
   font-size: 18px;
   font-weight: 700;
-  line-height: 21px;
+  line-height: 1.2;
   letter-spacing: 3%;
   text-transform: uppercase;
 }
@@ -44,7 +39,7 @@ body {
   color: #ffffff;
   font-size: 56px;
   font-weight: 700;
-  line-height: 60px;
+  line-height: 1.1;
   letter-spacing: 2%;
   text-align: center;
 }
@@ -52,7 +47,7 @@ body {
   color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
-  line-height: 40px;
+  line-height: 1.1;
   letter-spacing: 2%;
   text-align: center;
 }
@@ -60,24 +55,30 @@ body {
   color: #2e2f42;
   font-size: 20px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.2;
   letter-spacing: 2%;
 }
 .paragraph {
   color: #434455;
   font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 2%;
 }
 .part-logo {
   color: #4d5ae5;
 }
-.nav-options {
+.nav-link {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+}
+.nav-link:hover {
+  color: #404bbf;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
   letter-spacing: 2%;
 }
 .contacts {
@@ -85,7 +86,14 @@ body {
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 2%;
+}
+.contacts:hover {
+  color: #404bbf;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
   letter-spacing: 2%;
 }
 .button-order {
@@ -95,7 +103,18 @@ body {
   color: #ffffff;
   font-size: 16px;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 1.5;
+  letter-spacing: 4%;
+  border: 0;
+}
+.button-order:hover {
+  background-color: #404bbf;
+  width: 169px;
+  height: 56px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
   letter-spacing: 4%;
   border: 0;
 }
@@ -113,6 +132,6 @@ body {
   font-family: Roboto;
   font-size: 16px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
   letter-spacing: 2%;
 }
