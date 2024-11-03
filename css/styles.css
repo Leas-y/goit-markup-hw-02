@@ -14,41 +14,49 @@ address {
 }
 /* Own changes */
 body {
-  font-family: Roboto;
+  font-family: Roboto, sans-serif;
+  color: #434455;
   background-color: #ffffff;
 }
 .logo {
-  color: #2e2f42;
-  font-family: Raleway;
+  color: #4d5ae5;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.2;
-  letter-spacing: 3%;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;
 }
+.part-logo {
+  color: #2e2f42;
+}
 .bottom .logo-bottom {
-  color: #f4f4fd;
-  font-family: Raleway;
+  color: #4d5ae5;
+  font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
-  line-height: 1.2;
-  letter-spacing: 3%;
+  line-height: 1.17;
+  letter-spacing: 0, 03em;
   text-transform: uppercase;
+}
+.part-logo-bot {
+  color: #f4f4fd;
 }
 .title {
   color: #ffffff;
   font-size: 56px;
   font-weight: 700;
-  line-height: 1.1;
-  letter-spacing: 2%;
+  line-height: 1.07;
+  letter-spacing: 0, 02em;
   text-align: center;
 }
 .title-section {
   color: #2e2f42;
   font-size: 36px;
   font-weight: 700;
-  line-height: 1.1;
-  letter-spacing: 2%;
+  line-height: 1.11;
+  letter-spacing: 0, 02em;
+  text-transform: capitalize;
   text-align: center;
 }
 .title-paragraph {
@@ -56,72 +64,67 @@ body {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
-  letter-spacing: 2%;
+  letter-spacing: 0, 02em;
 }
 .paragraph {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
-  letter-spacing: 2%;
-}
-.part-logo {
-  color: #4d5ae5;
+  letter-spacing: 0, 02em;
 }
 .nav-link {
   color: #2e2f42;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0, 02em;
 }
-.nav-link:hover {
+.nav-link:hover,
+.nav-link:active {
   color: #404bbf;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0, 02em;
 }
-.contacts {
+.nav-contacts a {
   color: #434455;
-  font-family: Roboto;
+  font-family: 'Roboto';
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0, 02em;
 }
-.contacts:hover {
+.contacts:hover,
+.contacts:active {
   color: #404bbf;
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0, 02em;
 }
 .button-order {
+  font-family: 'Roboto', sans-serif;
   background-color: #4d5ae5;
-  width: 169px;
-  height: 56px;
   color: #ffffff;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 4%;
-  border: 0;
+  letter-spacing: 0, 04em;
 }
-.button-order:hover {
+.button-order:hover,
+.button-order:active {
   background-color: #404bbf;
-  width: 169px;
-  height: 56px;
   color: #ffffff;
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 4%;
-  border: 0;
+  letter-spacing: 0, 04em;
 }
-.section-1 {
+.section-order {
   background-color: #2e2f42;
 }
-.section-3 {
+.section-team {
   background-color: #f4f4fd;
 }
 .bottom {
@@ -133,5 +136,5 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0, 02em;
 }
